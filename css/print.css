@@ -1,0 +1,65 @@
+/**
+ * Media Queries - *Try* and make everything fit within these - use @from/to/between
+ */
+/**
+ * Font definitions
+ */
+/**
+ * Transitions
+ */
+/**
+ * Padding
+ * Usage: padding: $padding-rythm*2
+ */
+/*
+* Colours
+*/
+/**
+ * Purpose-based colors
+ */
+/**
+ * z-index stack
+ */
+/**
+ * Misc
+ */
+.l-header--menu-opener {
+  display: none;
+}
+
+.l-header--logo {
+  width: 25%;
+}
+
+.l-header--menu-opener {
+  display: none;
+  opacity: 0;
+}
+
+.l-header--links {
+  display: inline-block;
+}
+
+.illustration {
+  display: none;
+}
+
+.portrait {
+  display: none;
+}
+
+.panel__bg {
+  color: #0c486c;
+}
+
+.btn__white {
+  color: #0c486c;
+  border-color: #0c486c;
+}
+
+* {
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+/*# sourceMappingURL=maps/print.css.map */
