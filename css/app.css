@@ -298,7 +298,7 @@ kbd,
 pre,
 samp {
   font-family: monospace, serif;
-  font-size: 1em;
+  font-size: 0.5em; /* was 1em */
 }
 
 /**
