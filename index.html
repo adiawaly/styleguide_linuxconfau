@@ -263,6 +263,42 @@
    </li>
  </nav>
 
+<hr> <!-- Written  :  17-08-2016 -->
+<h4>How To Use Menu </h4>
+<pre>
+    <code class="html">    
+&lt;!-- For Single Level --&gt;
+&lt;nav role=&quot;navigation&quot; class=&quot;l-header--links&quot;&gt;
+	&lt;li class=&quot;l-header--nav&quot;&gt;
+	&lt;a href=&quot;#&quot; class=&quot;l-header--nav dropdown-toggle &quot; data-toggle=&quot;dropdown&quot;&gt;About&lt;/a&gt;
+	&lt;/li&gt;
+&lt;/nav&gt;
+
+&lt;!-- For Multi Level --&gt;
+&lt;nav role=&quot;navigation&quot; class=&quot;l-header--links&quot;&gt;
+    &lt;li class=&quot;l-header--nav&quot;&gt;
+    &lt;a href=&quot;#&quot; class=&quot;l-header--nav dropdown-toggle &quot; data-toggle=&quot;dropdown&quot;&gt;About&lt;/a&gt;
+    
+        &lt;div class=&quot;menu-dropdown &quot;&gt;
+        &lt;ul class=&quot;link-list&quot; role=&quot;menu&quot;&gt;
+            &lt;li class=&quot;link-list--item&quot;&gt;
+            &lt;a role=&quot;menuitem&quot; href=&quot;#&quot; class=&quot;link-list--link&quot;&gt;linux.conf.au 2017&lt;/a&gt;
+            &lt;/li&gt;
+            
+            &lt;li class=&quot;link-list--item&quot;&gt;&lt;a role=&quot;menuitem&quot; href=&quot;#&quot; class=&quot;link-list--link&quot;&gt;Hobart
+            &lt;/a&gt;
+            &lt;/li&gt;
+            
+            &lt;li class=&quot;link-list--item&quot;&gt;
+            &lt;a role=&quot;menuitem&quot; href=&quot;#&quot; class=&quot;link-list--link&quot;&gt;News&lt;/a&gt;
+            &lt;/li&gt;
+        &lt;ul&gt;
+        &lt;/div&gt;
+   &lt;/li&gt;
+&lt;/nav&gt;
+    </code>
+</pre>
+
 
 
 <h3><a name="#layout">Layout</a></h3>
